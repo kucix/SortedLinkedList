@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset name="Custom Standard">
+    <!-- https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-Ruleset -->
+
+    <file>./src</file>
+
+    <arg name="extensions" value="php" />
+    <arg name="report" value="full"/>
+    <arg value="ps"/>
+    <arg name="tab-width" value="4"/>
+
+    <rule ref="PSR12" />
+</ruleset>
